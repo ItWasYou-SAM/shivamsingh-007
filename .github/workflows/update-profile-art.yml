@@ -22,7 +22,7 @@ jobs:
 
       - name: Fetch contributions
         env:
-          GH_PROFILE_USER: shivamsingh-007
+          GH_PROFILE_USER: ItWasYou-SAM 
         run: python scripts/fetch_contributions.py
 
       - name: Render heatmap
